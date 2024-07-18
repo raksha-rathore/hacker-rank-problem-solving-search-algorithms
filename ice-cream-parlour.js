@@ -13,7 +13,10 @@
 function icecreamParlor(m, arr) {
    const costs = [];
    for (let i = 0; i < arr.length; i++) {
+    //for every value in the array
        for(let j = i+1; j < arr.length; j++) {
+          // any item on position i should only be sumed up to next positions i+1 onwards
+          // hence no need to initialize j = 0 , instead initialize it to j = i+1 
            if(arr[i] + arr[j] === m) {
                costs.push(i +1);
                costs.push(j +1);
