@@ -1,3 +1,4 @@
+// Problem statement can also be found on hacker rank
 /**
  * Ice Cream Parlor
  *Two friends like to pool their money and go to the ice cream parlor. They always choose two distinct flavors and they spend all of their money.
